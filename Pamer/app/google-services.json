@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "209803963031",
+    "firebase_url": "https://pamer-8daf6.firebaseio.com",
+    "project_id": "pamer-8daf6",
+    "storage_bucket": "pamer-8daf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209803963031:android:f9759feb332cc00a",
+        "android_client_info": {
+          "package_name": "pe.edu.pamer.aula.pamer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209803963031-3oqo29ou3a5slhtu2li0ueundo98ppnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pe.edu.pamer.aula.pamer",
+            "certificate_hash": "2aae49a5055074c001aed1712a19ab26fccd02d0"
+          }
+        },
+        {
+          "client_id": "209803963031-3u1a8t64dp5ghvto610svvr840cmohok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9IriUiKz3s3Cuvf3A3u-9DDdq2g9rVFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209803963031-sk71mang5duir9o1fpi97lkhoace0hbi.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Pamer.Pamer-App"
+              }
+            },
+            {
+              "client_id": "209803963031-3u1a8t64dp5ghvto610svvr840cmohok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

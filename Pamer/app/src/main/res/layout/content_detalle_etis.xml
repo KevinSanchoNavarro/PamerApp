@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pe.edu.pamer.aula.pamer.activities.DetalleEtisActivity"
+    tools:showIn="@layout/activity_detalle_etis"
+    android:background="@color/color_individual_eti">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limite_arriba_graph"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.27" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limite_abajo_graph"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.71" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limite_izquierda_graph"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.090" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/limite_derecha_graph"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.910" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arriba_tarjeta_rend"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.13" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arriba_claves"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.77" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/color_individual_eti"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        app:layout_constraintTop_toTopOf="@id/limite_arriba_graph"
+        app:layout_constraintBottom_toTopOf="@id/limite_abajo_graph"
+        app:layout_constraintLeft_toLeftOf="@id/limite_izquierda_graph"
+        app:layout_constraintRight_toLeftOf="@id/limite_derecha_graph">
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:id="@+id/textViewTitDetEti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/arriba_tarjeta_rend" />
+
+    <Button
+        android:id="@+id/imageButtonTarjRend"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/btn_tarj_rend_style"
+        android:text="Tarjeta de Rendimiento"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/arriba_tarjeta_rend" />
+
+    <Button
+        android:id="@+id/imageButtonClaves"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/btn_claves_style"
+        android:text="Claves"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/arriba_claves" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

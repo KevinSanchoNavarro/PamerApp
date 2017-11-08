@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29A9DF</color>
+    <color name="colorPrimaryDark">#29A9DF</color>
+    <color name="colorPrimaryDark2">#e71a07</color>
+    <color name="colorAccent">#FF5252</color>
+
+    <color name="bg_register">#2e3237</color>
+    <color name="btn_login">#052d50</color>
+    <color name="btn_conocenos">#135a97</color>
+    <color name="color_individual_eti">#0b4679</color>
+    <color name="color_lista_etis">#063156</color>
+    <color name="btn_cerrar_dialog">#063156</color>
+    <color name="yellow">#FFD600</color>
+
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="btn_comenzar">#000000</color>
+
+
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="black">#000000</color>
+
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorDivider">#BDBDBD</color>
+
+    <color name="color_tarj_rend">#1A7AA3</color>
+    <color name="color_claves">#263F49</color>
+    <color name="color_pamer_oscuro">#01203B</color>
+
+</resources>
+
+

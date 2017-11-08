@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/itemsGroupLogin"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home_item"
+            android:icon="@drawable/ic_menu_home"
+            android:checked="true"
+            android:title="Home" />
+        <item
+            android:id="@+id/etis"
+            android:icon="@drawable/ic_menu_etis2"
+            android:title="ETIS" />
+        <item
+            android:id="@+id/quienes_somos"
+            android:checked="true"
+            android:icon="@drawable/ic_menu_quienes_somos"
+            android:title="Quienes Somos" />
+        <item
+            android:id="@+id/historias_exito"
+            android:icon="@drawable/ic_menu_historias_exito"
+            android:title="Historias de éxito" />
+        <item
+            android:id="@+id/ubicanos"
+            android:icon="@drawable/ic_menu_ubicanos"
+            android:title="Ubícanos" />
+        <item
+            android:id="@+id/contactanos"
+            android:icon="@drawable/ic_menu_contactanos"
+            android:title="Contáctanos" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="LogOut" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/individual_eti"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/color_individual_eti">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/indEtiHorzLine50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/indEtiVertLine34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.34" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/indEtiVertLine45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.45" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/indEtiVertLine63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.63" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/indEtiVertLine81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.81" />
+
+    <TextView
+        android:id="@+id/textViewNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="nota"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintEnd_toStartOf="@id/indEtiVertLine34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textViewFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text="fecha"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/indEtiVertLine34"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textViewNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nombre"
+        android:textSize="19sp"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/indEtiVertLine34"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textViewBue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="23dp"
+        android:text="bue"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/indEtiVertLine34"
+        app:layout_constraintRight_toLeftOf="@id/indEtiVertLine45"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textViewMal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="23dp"
+        android:text="mal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/indEtiVertLine45"
+        app:layout_constraintRight_toLeftOf="@id/indEtiVertLine63"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textViewBlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginTop="23dp"
+        android:text="blan"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/indEtiVertLine63"
+        app:layout_constraintRight_toLeftOf="@id/indEtiVertLine81"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <ImageView
+        android:id="@+id/imageViewBuena"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/buena"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintStart_toEndOf="@id/textViewBue"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/imageViewMala"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/mala"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintStart_toEndOf="@id/textViewMal"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:id="@+id/imageViewBlanco"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        app:srcCompat="@drawable/blanco"
+        app:layout_constraintTop_toTopOf="@id/indEtiHorzLine50"
+        app:layout_constraintStart_toEndOf="@id/textViewBlan"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>

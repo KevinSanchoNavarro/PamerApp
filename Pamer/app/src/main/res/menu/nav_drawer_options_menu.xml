@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/optionItems_login">
+        <!--<item
+            android:id="@+id/optionItemLogin1"
+            android:orderInCategory="100"
+            android:title="optionItemLogin1"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/optionItemLogin2"
+            android:orderInCategory="100"
+            android:title="optionItemLogin2"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/optionItemLogin3"
+            android:orderInCategory="100"
+            android:title="optionItemLogin3"
+            app:showAsAction="never" />-->
+    </group>
+    <group
+        android:id="@+id/optionItems_conocenos">
+        <!--<item
+            android:id="@+id/optionItemConocenos1"
+            android:orderInCategory="100"
+            android:title="optionItemConocenos1"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/optionItemConocenos2"
+            android:orderInCategory="100"
+            android:title="optionItemConocenos2"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/optionItemConocenos3"
+            android:orderInCategory="100"
+            android:title="optionItemConocenos3"
+            app:showAsAction="never" />-->
+    </group>
+</menu>

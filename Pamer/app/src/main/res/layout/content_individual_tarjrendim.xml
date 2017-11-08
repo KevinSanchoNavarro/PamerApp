@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/individual_tarj_rendim"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@drawable/layout_border">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_line_10"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.099" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_line_55"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.550" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_line_71"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.713" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_line_82"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.820" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vert_line_91"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.911" />
+
+    <TextView
+        android:id="@+id/textViewOpc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="8dp"
+        android:text="Opc"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/vert_line_10"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Curso"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:maxLength="20"
+        android:layout_margin="0dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintStart_toStartOf="@id/vert_line_10"
+        app:layout_constraintEnd_toStartOf="@id/vert_line_55"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewNotaTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_margin="0dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="@id/vert_line_55"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBueTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N1"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_margin="0dp"
+        app:layout_constraintStart_toStartOf="@id/vert_line_71"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewMalTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N2"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_margin="0dp"
+        app:layout_constraintStart_toStartOf="@id/vert_line_82"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBlanTR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="N3"
+        android:textSize="10sp"
+        android:textColor="@color/black"
+        android:layout_margin="0dp"
+        app:layout_constraintStart_toStartOf="@id/vert_line_91"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

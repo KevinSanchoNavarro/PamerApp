@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    tools:context="pe.edu.pamer.aula.pamer.activities.DetalleEtisActivity"
+    android:padding="10dp">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/claves_vert10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clave_horiz22"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="70dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/claves_vert20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/claves_vert65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.65" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/claves_vert74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.743" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/claves_vert84"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.842" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/clave_horiz12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="45dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/line_horiz_abajo_recyclerClaves"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="365dp" />
+
+    <TextView
+        android:id="@+id/textViewTitClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clave ETI"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/clave_horiz12" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="0dp"
+        android:text="Parte"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/clave_horiz22"
+        app:layout_constraintEnd_toStartOf="@id/claves_vert10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Nro"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/clave_horiz22"
+        app:layout_constraintStart_toEndOf="@id/textView9"
+        app:layout_constraintEnd_toStartOf="@id/claves_vert20"
+        app:layout_constraintHorizontal_bias="0.60"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Curso"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/clave_horiz22"
+        app:layout_constraintStart_toStartOf="@id/claves_vert20"
+        app:layout_constraintEnd_toStartOf="@id/claves_vert65" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="ClaveM"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/clave_horiz22"
+        app:layout_constraintEnd_toStartOf="@id/claves_vert74" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="ClaveC"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/clave_horiz22"
+        app:layout_constraintStart_toStartOf="@id/claves_vert74"
+        app:layout_constraintEnd_toStartOf="@id/claves_vert84" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Puntaje"
+        android:textSize="10sp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/clave_horiz22"
+        app:layout_constraintStart_toStartOf="@id/claves_vert84" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/claves_recyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        app:layout_constraintBottom_toTopOf="@id/line_horiz_abajo_recyclerClaves"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/clave_horiz22"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn_cancel_claves"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_login_style"
+        android:text="Cancelar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/line_horiz_abajo_recyclerClaves" />
+
+
+</android.support.constraint.ConstraintLayout>
